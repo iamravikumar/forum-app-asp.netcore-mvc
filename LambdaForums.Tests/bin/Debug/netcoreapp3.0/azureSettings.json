@@ -1,0 +1,6 @@
+{
+  "ConnectionStrings": {
+    "AzureStorageAccountConnectionString": "DefaultEndpointsProtocol=https;AccountName=lambdaforumsshevchenko;AccountKey=eBaTAdbcbQE7AHY0VH4uuZ+EJpTE9K0o1dZvFY9NxRxKRx47R4icXreJ5xP8duMvNgGlCX+lgnpjGYpRz1EwSw==;EndpointSuffix=core.windows.net"
+  },
+  "ContainerName": "lambdaforums-images"
+}

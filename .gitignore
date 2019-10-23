@@ -1,0 +1,7 @@
+.vs/
+/LambdaForums.Web/bin/
+/LambdaForums.Web/obj/
+/LambdaForums.Web/azureSettings.json
+/LambdaForums.Web/appsettings.Production.json
+/LambdaForums.Web/appsettings.json
+/LambdaForums.Web/appsettings.Development.json

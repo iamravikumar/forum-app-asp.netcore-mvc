@@ -1,0 +1,10 @@
+D:\Programming\C#\LambdaForums\LambdaForums.Data\bin\Debug\netcoreapp2.2\LambdaForums.Data.deps.json
+D:\Programming\C#\LambdaForums\LambdaForums.Data\bin\Debug\netcoreapp2.2\LambdaForums.Data.dll
+D:\Programming\C#\LambdaForums\LambdaForums.Data\obj\Debug\netcoreapp2.2\LambdaForums.Data.AssemblyInfoInputs.cache
+D:\Programming\C#\LambdaForums\LambdaForums.Data\obj\Debug\netcoreapp2.2\LambdaForums.Data.AssemblyInfo.cs
+D:\Programming\C#\LambdaForums\LambdaForums.Data\bin\Debug\netcoreapp2.2\LambdaForums.Data.runtimeconfig.json
+D:\Programming\C#\LambdaForums\LambdaForums.Data\bin\Debug\netcoreapp2.2\LambdaForums.Data.runtimeconfig.dev.json
+D:\Programming\C#\LambdaForums\LambdaForums.Data\bin\Debug\netcoreapp2.2\LambdaForums.Data.pdb
+D:\Programming\C#\LambdaForums\LambdaForums.Data\obj\Debug\netcoreapp2.2\LambdaForums.Data.dll
+D:\Programming\C#\LambdaForums\LambdaForums.Data\obj\Debug\netcoreapp2.2\LambdaForums.Data.pdb
+D:\Programming\C#\LambdaForums\LambdaForums.Data\obj\Debug\netcoreapp2.2\LambdaForums.Data.csprojAssemblyReference.cache

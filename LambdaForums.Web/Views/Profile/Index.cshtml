@@ -1,0 +1,75 @@
+﻿@model LambdaForums.Web.Models.ApplicationUser.ProfileListModel
+
+<div class="container body-content">
+    <div class="row sectionHeaderProfileIndex">
+        <div class="sectionHeading">Browse Users</div>
+    </div>
+    <div class="row">
+        <table class="table table-hover" id="forumIndexTable">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>
+                        Username
+                    </th>
+                    <th>
+                        Member Since
+                    </th>
+                    <th>
+                        E-mail
+                    </th>
+                    <th>
+                        Rating
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var profile in Model.Profiles)
+                {
+                    <tr class="userRow">
+                        <td class="border-right">
+                            <div class="userProfilePic" style="background-image: url(@profile.ProfileImageUrl); background-size:100%"></div>
+                        </td>
+                        <td class="border-right">
+                            <a asp-controller="Profile" asp-action="Detail" , asp-route-id="@profile.Id">
+                                @profile.Username
+                            </a><br />
+                            @if (!profile.IsActive)
+                            {
+                                <span class="inactiveUserMain">inactive</span>
+                            }
+                            else
+                            {
+                                <span class="activeUserMain">active</span>
+                            }
+                        </td>
+                        <td class="border-right">
+                            @profile.DateJoined
+                        </td>
+                        <td class="border-right">
+                            @profile.Email
+                        </td>
+                        <td>
+                            @profile.UserRating
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+    <script type="text/javascript" src="~/lib/jquery/dist/jquery.js"></script>
+    <script charset="utf-8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#forumIndexTable').DataTable();
+        });
+    </script>
+}

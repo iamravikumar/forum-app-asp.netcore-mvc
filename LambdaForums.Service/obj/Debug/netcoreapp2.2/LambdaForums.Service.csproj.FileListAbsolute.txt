@@ -1,0 +1,11 @@
+D:\Programming\C#\LambdaForums\LambdaForums.Service\bin\Debug\netcoreapp2.2\LambdaForums.Service.deps.json
+D:\Programming\C#\LambdaForums\LambdaForums.Service\bin\Debug\netcoreapp2.2\LambdaForums.Service.dll
+D:\Programming\C#\LambdaForums\LambdaForums.Service\bin\Debug\netcoreapp2.2\LambdaForums.Service.pdb
+D:\Programming\C#\LambdaForums\LambdaForums.Service\bin\Debug\netcoreapp2.2\LambdaForums.Data.dll
+D:\Programming\C#\LambdaForums\LambdaForums.Service\bin\Debug\netcoreapp2.2\LambdaForums.Data.pdb
+D:\Programming\C#\LambdaForums\LambdaForums.Service\obj\Debug\netcoreapp2.2\LambdaForums.Service.csprojAssemblyReference.cache
+D:\Programming\C#\LambdaForums\LambdaForums.Service\obj\Debug\netcoreapp2.2\LambdaForums.Service.AssemblyInfoInputs.cache
+D:\Programming\C#\LambdaForums\LambdaForums.Service\obj\Debug\netcoreapp2.2\LambdaForums.Service.AssemblyInfo.cs
+D:\Programming\C#\LambdaForums\LambdaForums.Service\obj\Debug\netcoreapp2.2\LambdaForums.Service.csproj.CopyComplete
+D:\Programming\C#\LambdaForums\LambdaForums.Service\obj\Debug\netcoreapp2.2\LambdaForums.Service.dll
+D:\Programming\C#\LambdaForums\LambdaForums.Service\obj\Debug\netcoreapp2.2\LambdaForums.Service.pdb

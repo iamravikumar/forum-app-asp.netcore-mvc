@@ -1,0 +1,58 @@
+﻿@model LambdaForums.Web.Models.Forum.ForumIndexModel
+
+<div class="container body-content">
+    <div class="row sectionHeader">
+        <div class="sectionHeading">Browse Forums</div>
+        <div class="sectionDescription">
+            <p>Welcome to <strong>Lambda Forums community</strong>. Posts are broadly categorized into separate forums by programming language or area of interest.</p>
+            <p>
+                Please read the Forum Guidelines before creating a new post.
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    <span>You must be a <a asp-area="Identity" asp-page="/Account/Register">registered member</a> to create a new post.</span>
+                }
+            </p>
+        </div>
+    </div>
+    <div class="row" id="forumIndexContent">
+        <table class="table table-hover" id="forumIndexTable">
+            <tbody>
+                @foreach (var forum in Model.ForumList)
+                {
+                    <tr>
+                        <td id="logo-and-title">
+                            <a asp-controller="Forum" asp-action="Topic" asp-route-id="@forum.Id">
+                                <div class="forumLogo" style="background-image: url(@forum.ImageUrl);"></div>
+                            </a>
+                            <div class="forumData">
+                                <div class="forumTitle">
+                                    <a asp-controller="Forum" asp-action="Topic" asp-route-id="@forum.Id">@forum.Name</a>
+                                </div>
+                                @if (forum.HasRecentPost)
+                                {
+                                    <div class="forumSubTitle">
+                                        <div class="hasRecentPost">Hot</div>
+                                    </div>
+                                }
+                            </div>
+                        </td>
+                        <td id="forum-post-count">
+                            <div class="forumPostCount">
+                                @forum.NumberOfPosts Posts
+                            </div>
+                            <div class="forumMemberCount">
+                                @forum.NumberOfUsers Users
+                            </div>
+                        </td>
+                        <td>
+                            <div class="forumDescription">
+                                @forum.Description
+                            </div>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
