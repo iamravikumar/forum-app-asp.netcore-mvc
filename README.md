@@ -1,0 +1,1 @@
+![Image alt](https://github.com/igor-shevchenko-pro/Forum-ASP.NETCore2.2MVC-FullStack/raw/master/forum.png)
